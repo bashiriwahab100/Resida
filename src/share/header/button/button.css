@@ -1,0 +1,35 @@
+.outline {
+    border: 1px solid #1F4B43;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 0px;
+    padding: 12px;
+    background-color: transparent;
+    font-size: 13px;
+    color: #1F4B43;
+    cursor: pointer;
+    font-weight: normal;
+    width: 115px;
+}
+.outline:active{
+    background-color: #1F4B43;
+    color: white;
+}
+.btn {
+    border: 1px solid #1F4B43;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 0px;
+    padding: 12px;
+    background-color: #1F4B43;
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+    font-weight: normal;
+}
+.btn:active {
+    background-color: white;
+    color: #1F4B43;
+}

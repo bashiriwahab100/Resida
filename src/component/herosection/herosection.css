@@ -1,0 +1,60 @@
+.hero_section {
+    background-image: url("../../asset/image.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-top: 90px;
+    
+}
+.hero_section p {
+    font-family: Margaret;
+    font-size: 52px;
+    text-align: center;
+    color: #1F4B43;
+    max-width: 700px;
+    align-items: center;
+    margin: auto;
+}
+.hero_section span {
+    font-size: 15px;
+    text-align: center;
+    color: #35384B;
+    align-items: center;
+    width: 600px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+}
+.hero_section_button {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 60px;
+}
+.hero_section_button button{
+    width: 200px;
+}
+
+@media (max-width:760){
+    .hero_section p {
+        font-family: Margaret;
+        font-size: 52px;
+        text-align: center;
+        color: #1F4B43;
+        max-width: 450px;
+        align-items: center;
+        margin: auto;
+    }
+    .hero_section span {
+        font-size: 15px;
+        text-align: center;
+        color: #35384B;
+        align-items: center;
+        width: 400px;
+        margin: auto;
+        display: block;
+        margin-top: 20px;
+    }
+}
+    
